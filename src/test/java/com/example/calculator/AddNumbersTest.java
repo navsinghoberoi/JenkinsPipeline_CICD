@@ -16,7 +16,11 @@ public class AddNumbersTest {
 
     @Test
     public void testAdd_FourInputs() {
-        AddNumbers.add(5, 5, 5);
+        AddNumbers.add(5, 5, 5,5);
     }
 
+    @Test
+    public void testAdd_FiveInputs() {
+        AddNumbers.add(5, 5, 5,5,5);
+    }
 }
