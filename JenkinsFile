@@ -30,6 +30,7 @@ stage('Test'){
 	
 	steps{
 	echo "Running tests in the project...."
+	sh 'mvn test -DsuiteXmlFile=TestNG.xml'
 	}
 }
 
