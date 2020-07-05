@@ -34,10 +34,12 @@ stage('Test'){
 	}
 }
 
-
 stage('Publish Report'){
 
-step([$class: 'Publisher', reportFilenamePattern: '**target/surefire-reports/emailable-report.html'])
+steps(
+	echo "Publish testng report in the project...."
+    [$class: 'Publisher', reportFilenamePattern: '**target/surefire-reports/emailable-report.html']
+)
 
 }
 
