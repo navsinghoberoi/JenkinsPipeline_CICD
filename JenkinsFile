@@ -35,6 +35,12 @@ stage('Test'){
 }
 
 
+stage('Publish Report'){
+
+step([$class: 'Publisher', reportFilenamePattern: '**target/surefire-reports/emailable-report.html'])
+
+}
+
 	}
 
 
