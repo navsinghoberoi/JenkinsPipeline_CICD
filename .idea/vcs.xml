@@ -4,5 +4,7 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/test/resources/jenkins_data/caches/git-b986de614feaa9652eb4f82e0f3feae9" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/test/resources/jenkins_data/workspace/Calculator_DeclarativePipeline" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/test/resources/jenkins_data/workspace/Calculator_DeclarativePipeline@2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/test/resources/jenkins_data/workspace/Calculator_DeclarativePipeline@script" vcs="Git" />
   </component>
 </project>
