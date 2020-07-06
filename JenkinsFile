@@ -31,7 +31,7 @@ stage('Test'){
 	steps{
 	echo "Running tests in the project...."
 	sh 'mvn test -DsuiteXmlFile=TestNG.xml'
-	echo "Running ${env.BUILD_NUMBER} build number on ${env.JENKINS_URL} url for the ${JOB_NAME} job on the ${BRANCH_NAME} branch"
+	echo "Running ${env.BUILD_NUMBER} build number on ${env.JENKINS_URL} url for the ${env.JOB_NAME} job on the ${env.BRANCH_NAME} branch"
 	}
 }
 
